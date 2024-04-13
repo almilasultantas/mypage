@@ -1,0 +1,13 @@
+.NLcolor {
+    color: #FFB0B0 !important;
+    font-weight: bolder !important;
+    font-size: 1.5rem;
+}
+.NBtoggle{
+    background-color: #FFB0B0 !important;
+    border-color:white !important;
+}
+.centered {
+    display: flex !important;
+    justify-content: center !important;
+}
