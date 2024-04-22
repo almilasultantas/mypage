@@ -1,13 +1,51 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #81689D !important;
+  font-weight: bolder !important;
+}
+a{
+    text-decoration: none !important;
+    color: #EFECEC !important;
+}
+button {
+    background-color: #81689D;
+    border: 1px solid #EFECEC;
+    color: #EFECEC;
+    border-radius: 8px !important;
+    margin: 10px !important;
+}
+button:hover {
+    background-color: #EFECEC;
+    border: 1px solid #81689D !important;
+    color: #81689D !important;
+}
+  
+.btnBigger {
+    padding: 10px 20px;
+    font-size: 18px;
+}
 .NLcolor {
-    color: #FFB0B0 !important;
+    color: #FFD0EC !important;
     font-weight: bolder !important;
     font-size: 1.5rem;
 }
 .NBtoggle{
-    background-color: #FFB0B0 !important;
-    border-color:white !important;
+    background-color: #FFD0EC !important;
+    border-color:#FFD0EC !important;
 }
 .centered {
     display: flex !important;
     justify-content: center !important;
+}
+.pAbout{
+    padding: 1rem 15rem;
+    font-size: large;
+}
+.maindiv {
+    background-color: #FFF1F9;
+    color:#0A0D1D;
 }

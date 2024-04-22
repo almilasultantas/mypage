@@ -1,0 +1,44 @@
+.experience {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .experienceList {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  /*.experience ITEM STYLING */
+  
+  .experienceItem {
+    border-radius: 15px;
+    width: 17rem;
+    height: 15rem;
+    margin: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5rem;
+  }
+  .experienceItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .experienceList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .experienceList {
+      grid-template-columns: 1fr;
+    }
+  }
+  

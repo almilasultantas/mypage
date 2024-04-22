@@ -19,7 +19,7 @@ function Navi(args) {
                 expand="lg"
                 color="faded"
                 light
-                style={{ padding: "1.5rem", backgroundColor: "#0C2D57" }}
+                style={{ padding: "1.5rem", backgroundColor: "#1F2544" }}
             >
                 <NavbarBrand href="/" className="NLcolor">
                     <NavLink href="/" className="NLcolor">
@@ -31,22 +31,22 @@ function Navi(args) {
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="me-auto" navbar>
                             <NavItem>
-                                <NavLink href="/" className="NLcolor">
+                                <NavLink href="/about" className="NLcolor">
                                     Hakkımda
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/produkte" className="NLcolor">
+                                <NavLink href="/experiences" className="NLcolor">
                                     Deneyimlerim
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/kontaktseite" className="NLcolor">
+                                <NavLink href="/" className="NLcolor">
                                     Projelerim
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/kontaktseite" className="NLcolor">
+                                <NavLink href="/contact" className="NLcolor">
                                     İletişim
                                 </NavLink>
                             </NavItem>
