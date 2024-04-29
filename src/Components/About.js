@@ -3,7 +3,7 @@ import "../CSS/Main.css";
 
 function About(args) {
     return (
-        <div style={{ textAlign: "center", minHeight: "80vh" }} className="maindiv">
+        <div style={{ textAlign: "center" }} className="maindiv">
             <h1>Merhaba! Ben Almıla Sultan TAŞ. </h1>
             <p className="pAbout">
                 Bilgisayar Mühendisiyim ve teknolojiye olan tutkumla kendimi sürekli geliştirmeye adamış biriyim.

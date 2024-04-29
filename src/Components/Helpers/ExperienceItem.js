@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, CardTitle, CardText, CardBody } from "reactstrap";
-import { Link } from "react-router-dom";
 import "../../CSS/Experience.css"
 
 function ExperienceItem({ id, name, Date, Position }) {

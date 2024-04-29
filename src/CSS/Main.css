@@ -4,7 +4,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #81689D !important;
+  color: #0D1243 !important;
   font-weight: bolder !important;
 }
 a{
@@ -12,7 +12,7 @@ a{
     color: #EFECEC !important;
 }
 button {
-    background-color: #81689D;
+    background-color: #0D1243;
     border: 1px solid #EFECEC;
     color: #EFECEC;
     border-radius: 8px !important;
@@ -20,8 +20,8 @@ button {
 }
 button:hover {
     background-color: #EFECEC;
-    border: 1px solid #81689D !important;
-    color: #81689D !important;
+    border: 1px solid #0D1243 !important;
+    color: #0D1243 !important;
 }
   
 .btnBigger {
@@ -29,13 +29,14 @@ button:hover {
     font-size: 18px;
 }
 .NLcolor {
-    color: #FFD0EC !important;
+    color: #0D1243 !important;
     font-weight: bolder !important;
     font-size: 1.5rem;
+    
 }
 .NBtoggle{
-    background-color: #FFD0EC !important;
-    border-color:#FFD0EC !important;
+    background-color: #0D1243 !important;
+    border-color:#0D1243 !important;
 }
 .centered {
     display: flex !important;
@@ -46,6 +47,17 @@ button:hover {
     font-size: large;
 }
 .maindiv {
-    background-color: #FFF1F9;
+    background: radial-gradient(68.39% 68.39% at 27.27% 31.61%, #FFFFFF 0%, #D8DBF2 48.5%, #C6CBEC 100%);
+min-height: 100vh;
     color:#0A0D1D;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+ 
+  .sidebarMargin{
+    margin: 1rem 0;
+  }

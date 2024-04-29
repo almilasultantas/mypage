@@ -8,14 +8,15 @@ function Footer(args) {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div>
+        <div style={{
+            position: "fixed",
+            bottom: "0"
+        }}>
             <Navbar
                 expand="lg"
                 color="faded"
                 light
                 style={{
-
-                    backgroundColor: "#1F2544",
                     flexDirection: "column",
                     padding: "1rem 1rem",
                 }}
